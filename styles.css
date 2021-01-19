@@ -1,0 +1,125 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  background: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weak {
+  color: hsl(0, 0%, 59%);
+  font-size: 16px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.card-container {
+  width: 340px;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.card-background {
+  background-image: url("./images/bg-pattern-card.svg");
+  background-size: cover;
+  height: 150px;
+}
+
+.avatar-holder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  margin: -70px auto 30px auto;
+}
+
+.avatar-holder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.name {
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.location {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.socials {
+  margin-top: 10px;
+  display: flex;
+}
+
+.socials .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+.socials .weak {
+  margin-top: 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+/* Attribution */
+.attribution {
+  margin-top: -50px;
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: #fff;
+}
